@@ -80,6 +80,21 @@ select * from clientes limit 3
 select * from clientes order by id desc limit 3
 ```
 
+## Temas para consultar para trabajar base de datos en nivel avanzado
+
+1) procedimientos almacenados
+
+2) funciones
+
+3) índices
+
+4) fragmentación y desfragmentación de índices
+
+5) tipos de índices
+
+6) normalización de una base de datos ( hay 3 formas normales)
+
+
 ## Documentacion:
 
 https://www.postgresql.org/docs/16/reference.html
