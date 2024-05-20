@@ -80,10 +80,15 @@ select * from clientes limit 3
 select * from clientes order by id desc limit 3
 ```
 
-Documentacion:
+## Documentacion:
+
 https://www.postgresql.org/docs/16/reference.html
+
 https://devdocs.io/
+
 https://miro.com/es/diagrama/que-es-diagrama-uml/
+
 https://www.lucidchart.com/pages/es
+
 https://dbdiagram.io/home
 
