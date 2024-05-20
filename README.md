@@ -27,7 +27,8 @@ select categoria, COUNT(*) as cantidad_productos from productos group by categor
 select * from public.productos where nombre like '%Tel%'
 ```
 
-##HAVING BY
+## HAVING BY
+
 ```
 select categoria, AVG(precio) as precio_promedio
 from productos
@@ -40,7 +41,8 @@ group by categoria
 having avg(precio) >= 234000
 ```
 
-##DISTINCT
+## DISTINCT
+
 ```
 create table clientes(
 id serial primary key,
@@ -59,7 +61,8 @@ select * from public.clientes
 
 select distinct ciudad from clientes
 ```
-##ORDER BY
+## ORDER BY
+
 ```
 select * from clientes order by edad asc
 select * from clientes order by edad desc
@@ -70,7 +73,8 @@ select * from clientes order by nombre desc
 select * from clientes order by nombre,edad asc
 ```
 
-##LIMIT
+## LIMIT
+
 ```
 select * from clientes limit 3
 select * from clientes order by id desc limit 3
