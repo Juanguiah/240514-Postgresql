@@ -1,4 +1,4 @@
-##GROUP BY
+## GROUP BY
 
 ```
 create table productos (
@@ -20,6 +20,7 @@ values
 select * from public.productos
 
 select categoria, COUNT(*) as cantidad_productos from productos group by categoria;
+```
 
 ## LIKE
 ```
